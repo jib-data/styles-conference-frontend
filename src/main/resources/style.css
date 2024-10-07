@@ -1,0 +1,121 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    background: #084869;
+    color: #fff
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*,
+*::before,
+        *::after{
+    box-sizing: border-box;
+}
+
+/*---------------------------------------header---------------------------------------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+ .logo {
+    font-size: 2.5rem;
+    margin-left:40px;
+}
+.date{
+    font-size: 1.5em;
+    margin-bottom:10px;
+}
+.navigation-top{
+    display:flex;
+    align-items:center;
+    margin-right: 40px;
+}
+ul.nav-items{
+    display: flex;
+    gap: 1rem;
+}
+
+
+/*--------------------------------------------hero-------------------------------------------------*/
+/* .hero{*/
+/*    display:flex;*/
+/*    justify-content:center;*/
+/*    align-items:center;*/
+
+/*}*/
+
+
+.hero{
+    text-align:center;
+    padding: 100px;
+}
+.hero-header{
+    font-size:2rem;
+}
+.hero-text{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.register-button{
+    margin-top: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------teaser-----------------------------------------*/
+ .teaser{
+    background: #fff;
+    color: #084869;
+    display:flex;
+    gap: 30px;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.teaser-item{
+    max-width: 400px;
+}
+.teaser-image{
+    max-width: 100%;
+    margin: 20px 0px;
+}
